@@ -1,0 +1,409 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+.header {
+
+    width: 100%;
+    border: 3px solid black;
+    margin-bottom: auto;
+    height: fit-content;
+    font-size: x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    background-color: black;
+    /* background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%); */
+    color: white;
+
+
+
+
+}
+
+#footer {
+    margin-top: 10px;
+    width: 100%;
+    height: 300px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    background-color: rgb(59, 59, 59);
+    position: absolute;
+    TOP: 2030PX;
+    width: 100%;
+    left: 0px;
+    right: 0px;
+    overflow: unset;
+
+
+}
+
+.leftmain {
+    background-color: #F2313A;
+    padding: 20px 35px 20px 20px;
+    width: 51%;
+    border: 3px solid black;
+    border-radius: 5px;
+    height: 880px;
+
+}
+
+body {
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+
+}
+
+.phototable td {
+    text-align: center;
+}
+
+.footer-social-icons {
+    width: 350px;
+    display: block;
+    margin: 0 auto;
+}
+
+.social-icon {
+    color: #fff;
+    /* margin-left: -10px; */
+}
+
+ul.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+    height: 100px;
+}
+
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.fa-facebook {
+    padding: 10px 14px;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+
+.fa-facebook:hover {
+    background-color: #3d5b99;
+}
+
+.fa-twitter {
+    padding: 10px 12px;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+
+.fa-twitter:hover {
+    background-color: #00aced;
+}
+
+.fa-rss {
+    padding: 10px 14px;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+
+.fa-rss:hover {
+    background-color: #eb8231;
+}
+
+.fa-youtube {
+    padding: 10px 14px;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+
+.fa-youtube:hover {
+    background-color: #e64a41;
+}
+
+.fa-linkedin {
+    padding: 10px 14px;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+
+.fa-linkedin:hover {
+    background-color: #0073a4;
+}
+
+.fa-github {
+    padding: 10px 14px;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+
+.fa-github:hover {
+    background-color: #5a32a3;
+}
+
+.FOOTH {
+    font-size: large;
+    font-weight: bolder;
+    margin-bottom: 0px;
+}
+
+.notify a {
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 5px;
+    border-color: white;
+}
+
+a:hover {
+    background-color: white;
+    color: #F2313A;
+}
+
+.welcome :hover {
+    width: 280px;
+    height: 220px;
+}
+
+
+
+h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    /* background-color: #F2313A; */
+    height: 30px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    /* border: 3px solid black;  */
+    width: 40%;
+    text-align: center;
+
+}
+
+.content_text {
+    position: absolute;
+    top: 300px;
+    left: 950px;
+}
+
+.content_text h1 {
+    width: 450px;
+}
+
+.insidebutton a {
+    padding: 5px 8px;
+    color: white;
+    background-color: rgb(90, 72, 208);
+    position: absolute;
+    text-decoration: none;
+    top: 410px;
+    left: 1000px;
+    box-shadow: #000000;
+    border-radius: 3px;
+    font-size: larger;
+    font-weight: bold;
+
+}
+
+.insidebutton a:hover {
+    background-color: white;
+    color: rgb(90, 72, 208);
+
+
+}
+
+
+
+.mainphoto img {
+    opacity: 1;
+    transition: 0.5s ease;
+    width: 100%;
+}
+
+.mainphoto img:hover {
+    opacity: 0.5;
+    transition: 0.5s ease;
+}
+
+.photocontent img {
+    width: 350px;
+    height: 250px;
+}
+
+.photocontent {
+    justify-content: space-evenly;
+    width: 100%;
+    display: flex;
+    background-image: #000000;
+    margin-top: 30px;
+}
+
+body {
+    /* background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+     */
+    background-color: black;
+    ;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.photo {
+    border: 1px black thin;
+}
+
+.photo:hover {
+    box-shadow: rgba(247, 247, 247, 0.35) 0px 5px 15px;
+
+}
+
+.photocontinside {
+    width: 300px;
+    text-align: center;
+    padding-left: 50px;
+}
+
+.photocontinside p {
+    text-align: center;
+}
+
+/* mmmm */
+
+* {
+    box-sizing: border-box
+}
+
+.mys {
+    display: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin-top: 30px;
+
+
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+
+
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    margin-bottom: 30px;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+
+    .prev,
+    .next,
+    .text {
+        font-size: 11px
+    }
+}
+
+#footer a {
+    text-decoration: none;
+    color: rgb(182, 177, 177);
+    line-height: 20px;
+
+
+}
+
+.secondfoot  :hover{
+    
+    font-size: medium;
+    
+}
